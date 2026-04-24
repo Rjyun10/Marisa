@@ -36,7 +36,11 @@ function mascaraCpf(id) {
 function mascaraDdd1(id) {
   let campo = document.getElementById(id);
   let valor = campo.value.replace(/\D/g, "");
-  campo.value = valor;
+  if (valor.length >= 2) {
+    campo.value = valor.replace(/^(\d{1})(\d{1,3})$/, "($1$2)");
+  } else {
+    campo.value = valor;
+  }
 }
 
 function mascaraCel(id) {
@@ -55,7 +59,11 @@ function mascaraCel(id) {
 function mascaraDdd2(id) {
   let campo = document.getElementById(id);
   let valor = campo.value.replace(/\D/g, "");
-  campo.value = valor;
+  if (valor.length >= 2) {
+    campo.value = valor.replace(/^(\d{1})(\d{1,3})$/, "($1$2)");
+  } else {
+    campo.value = valor;
+  }
 }
 
 function mascaraTel(id) {

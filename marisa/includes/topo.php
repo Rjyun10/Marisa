@@ -1,10 +1,10 @@
     <div class="top_cupom">
-        <img src="imagens/Faixa-marisatopo-Desktop.gif" alt="Desconto 10% OFF">
+        <a href="topo_off.php"><img src="imagens/Faixa-marisatopo-Desktop.gif" alt="Desconto 10% OFF"></a>
     </div>
     <div class="menu_info">
         <div class="menu_info_box">
             <div class="menu_info_box_logo">
-                <img src="imagens/logo-marisa.svg" alt="Logo Marisa" class="img_logo1">
+                <a href="index.php"><img src="imagens/logo-marisa.svg" alt="Logo Marisa" class="img_logo1"></a>
             </div>
             <div class="menu_info_box_menu">
                 <a href="" class="mn1">Meus Pedidos</a>
@@ -18,7 +18,7 @@
         <div class="menu_box">
             <div class="menu_box_1">
                 <div class="menu_box_1_logo">
-                    <img src="imagens/logo-marisa.svg" alt="Logo Marisa" class="img_logo2">
+                    <a href="index.php"><img src="imagens/logo-marisa.svg" alt="Logo Marisa" class="img_logo2"></a>
                 </div>
                 <div class="menu_box_1_pesq">
                     <form action="" method="">

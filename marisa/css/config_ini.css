@@ -532,8 +532,6 @@ body {
 
 .link_menu:hover {
   color: #ff009c;
-  border: solid 2px black;
-  border-radius: 2px;
 }
 
 .menu_col2 label {

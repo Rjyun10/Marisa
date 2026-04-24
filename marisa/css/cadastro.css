@@ -61,6 +61,7 @@
 
 .inp_radio {
   accent-color: #ff009c;
+  cursor: pointer;
 }
 
 .box_form b {
@@ -230,6 +231,7 @@
 
 .inp_ck_termos {
   accent-color: #ff009c;
+  cursor: pointer;
 }
 
 .box_form_uf {

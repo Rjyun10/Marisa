@@ -1,3 +1,7 @@
+<?php
+    require_once("conexao/conexao.php");
+    require_once("classes/class_estados.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,7 +60,7 @@
                         </div>
                         <div class="box_form_ddd2">
                             <b>DDD *</b>
-                            <input type="text" name="ddd2" placeholder="(00)" maxlength="2" class="inp_cad4" id="ddd2_cpf" id="masc_ddd2" onkeyup="mascaraDdd2(this.id)"/>
+                            <input type="text" name="ddd2" placeholder="(00)" maxlength="4" class="inp_cad4" id="ddd2_cpf" id="masc_ddd2" onkeyup="mascaraDdd2(this.id)"/>
                         </div>
                         <div class="box_form_tel">
                             <b>Telefone *</b>
@@ -81,7 +85,14 @@
                         <div class="box_form_uf">
                             <b>UF *</b>
                             <select class="inp_cad6" id="uf_pj">
-                                <option value="SP">São Paulo</option>
+                                <?php
+                                    $consultaUf = new selecionaEstados();
+                                    while($retornaUf = mysqli_fetch_array($consultaUf->executa)){
+                                ?>
+                                    <option value="<?php echo $retornaUf['sigla'];?>"><?php echo $retornaUf['nome'];?></option>
+                                <?php
+                                    }
+                                ?>
                             </select>
                         </div>
                         <div class="box_form_trib">
@@ -120,7 +131,7 @@
             <div class="cadastro_box2">
                 <form action="" method="" class="form2">
                     <div class="box_form">
-                        <b>E-mail*</b>
+                        <b>E-mail *</b>
                         <input type="text" name="email" placeholder="Informe o e-mail" class="inp_cad1" id="email_d2"/>
                     </div>
                     <div class="box_form">
@@ -128,18 +139,18 @@
                         <label class="txt_token">O token será enviado por e-mail/SMS*</label>
                     </div>
                     <div class="box_form">
-                        <b>Token*</b>
+                        <b>Token *</b>
                         <input type="text" name="token" placeholder="Informe seu token de cadastro" class="inp_cad1" id="token_d2"/>
                     </div>
                     <div class="box_form">
-                        <b>Senha*</b>
+                        <b>Senha *</b>
                         <input type="text" name="senha" placeholder="Insira a senha" class="inp_cad1" id="senha_d2"/>
                         <div class="box_bt_mostrar">
                             <img src="imagens/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" />
                         </div>
                     </div>
                     <div class="box_form">
-                        <b>Confirmar Senha*</b>
+                        <b>Confirmar Senha *</b>
                         <input type="text" name="senha2" placeholder="Insira a senha novamente" class="inp_cad1" id="conf_senha_d2"/>
                         <div class="box_bt_mostrar">
                             <img src="imagens/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" />

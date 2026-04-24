@@ -31,39 +31,39 @@
         <div class="categorias">
             <h4>NAVEGUE POR CATEGORIA</h4>
             <div class="nvg_ctg_img">
-                <img src="imagens/OFERTAS.gif" class="nvg_ctg_img1">
+                <a href=""><img src="imagens/OFERTAS.gif" class="nvg_ctg_img1"></a>
                 <a href="" class="nvg_ctg1">Ofertas</a>
             </div>
             <div class="nvg_ctg_img">
-                <img src="imagens/FEMININO.gif" class="nvg_ctg_img1">
+                <a href=""><img src="imagens/FEMININO.gif" class="nvg_ctg_img1"></a>
                 <a href="" class="nvg_ctg1">Feminino</a>
             </div>
             <div class="nvg_ctg_img">
-                <img src="imagens/CALCADOS.gif" class="nvg_ctg_img1">
+                <a href=""><img src="imagens/CALCADOS.gif" class="nvg_ctg_img1"></a>
                 <a href="" class="nvg_ctg1">Calçados</a>
             </div>
             <div class="nvg_ctg_img">
-                <img src="imagens/INFANTIL.gif" class="nvg_ctg_img1">
+                <a href=""><img src="imagens/INFANTIL.gif" class="nvg_ctg_img1"></a>
                 <a href="" class="nvg_ctg1">Infantil</a>
             </div>
             <div class="nvg_ctg_img">
-                <img src="imagens/LINGERIE.gif" class="nvg_ctg_img1">
+                <a href=""><img src="imagens/LINGERIE.gif" class="nvg_ctg_img1"></a>
                 <a href="" class="nvg_ctg1">Lingerie</a>
             </div>
             <div class="nvg_ctg_img">
-                <img src="imagens/JEANS.gif" class="nvg_ctg_img1">
+                <a href=""><img src="imagens/JEANS.gif" class="nvg_ctg_img1"></a>
                 <a href="" class="nvg_ctg1">Jeans</a>
             </div>
             <div class="nvg_ctg_img">
-                <img src="imagens/PLUS.gif" class="nvg_ctg_img1">
+                <a href=""><img src="imagens/PLUS.gif" class="nvg_ctg_img1"></a>
                 <a href="" class="nvg_ctg1">Plus Size</a>
             </div>
             <div class="nvg_ctg_img">
-                <img src="imagens/MASCULINO.gif" class="nvg_ctg_img1">
+                <a href=""><img src="imagens/MASCULINO.gif" class="nvg_ctg_img1"></a>
                 <a href="" class="nvg_ctg1">Masculino</a>
             </div>
             <div class="nvg_ctg_img">
-                <img src="imagens/ACESSORIOS.gif" class="nvg_ctg_img1">
+                <a href=""><img src="imagens/ACESSORIOS.gif" class="nvg_ctg_img1"></a>
                 <a href="" class="nvg_ctg1">Acessórios</a> 
             </div>
         </div>
