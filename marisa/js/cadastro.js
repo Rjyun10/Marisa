@@ -9,6 +9,17 @@ function mostraPf(id) {
 }
 
 function enviarDadosCpf() {
+  /*if (validarData("data_cpf")) {
+    alert("Data válida!");
+  } else {
+    alert("Data com erro!");
+  }
+  if (validarCpf("cpf_cpf")) {
+    alert("CPF válida!");
+  } else {
+    alert("CPF com erro!");
+  }*/
+
   var nome = document.getElementById("nome_cpf").value;
   var data = document.getElementById("data_cpf").value;
   var cpf = document.getElementById("cpf_cpf").value;
@@ -21,6 +32,11 @@ function enviarDadosCpf() {
 }
 
 function enviarDadosPj() {
+  if (validarCnpj("cnpj_pj")) {
+    alert("CNPJ válida!");
+  } else {
+    alert("CNPJ com erro!");
+  }
   var empresa = document.getElementById("empresa_pj").value;
   var responsavel = document.getElementById("resp_pj").value;
   var cnpj = document.getElementById("cnpj_pj").value;
@@ -42,4 +58,28 @@ function enviarDados2() {
   var senha = document.getElementById("senha_d2").value;
   var conf_senha = document.getElementById("conf_senha_d2").value;
   /*alert(email + " / " + token + " / " + senha + " / " + conf_senha);*/
+}
+
+function mostraSenha1(id) {
+  $("#" + id).hide();
+  $("#pass_oculta1").show();
+  document.getElementById("senha_d2").type = "text";
+}
+
+function ocultaSenha1(id) {
+  $("#" + id).hide();
+  $("#pass_mostra1").show();
+  document.getElementById("senha_d2").type = "password";
+}
+
+function mostraSenha2(id) {
+  $("#" + id).hide();
+  $("#pass_oculta2").show();
+  document.getElementById("conf_senha_d2").type = "text";
+}
+
+function ocultaSenha2(id) {
+  $("#" + id).hide();
+  $("#pass_mostra2").show();
+  document.getElementById("conf_senha_d2").type = "password";
 }

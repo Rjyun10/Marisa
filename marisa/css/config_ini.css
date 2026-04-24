@@ -425,6 +425,7 @@ body {
   float: left;
   width: 100%;
   height: auto;
+  padding-bottom: 10px;
 }
 
 .rodape_box1 {
@@ -532,6 +533,8 @@ body {
 
 .link_menu:hover {
   color: #ff009c;
+  /*border: solid 2px #c90278;
+  border-radius: 3px;*/
 }
 
 .menu_col2 label {

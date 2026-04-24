@@ -78,3 +78,28 @@ function mascaraTel(id) {
     campo.value = valor;
   }
 }
+
+function mascaraCnpj(id) {
+  let campo = document.getElementById(id);
+  let valor = campo.value.replace(/\D/g, "");
+  if (valor.length > 14) {
+    valor = valor.slice(0, 14);
+  }
+  if (valor.length >= 12) {
+    campo.value = valor.replace(
+      /^(\d{2})(\d{3})(\d{3})(\d{4})(\d{1,2})$/,
+      "$1.$2.$3/$4-$5",
+    );
+  } else if (valor.length >= 8) {
+    campo.value = valor.replace(
+      /^(\d{2})(\d{3})(\d{3})(\d{1,4})$/,
+      "$1.$2.$3/$4",
+    );
+  } else if (valor.length >= 5) {
+    campo.value = valor.replace(/^(\d{2})(\d{3})(\d{1,3})$/, "$1.$2.$3");
+  } else if (valor.length >= 2) {
+    campo.value = valor.replace(/^(\d{2})(\d{1,3})$/, "$1.$2");
+  } else {
+    campo.value = valor;
+  }
+}

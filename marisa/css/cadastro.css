@@ -264,6 +264,16 @@
 .inp_cad2:focus,
 .inp_cad3:focus,
 .inp_cad4:focus,
-.inp_cad5:focus {
+.inp_cad5:focus,
+.inp_cad6:focus,
+.inp_cad7:focus {
   border: solid 1px #ff009c;
+}
+
+#pass_oculta1 {
+  display: none;
+}
+
+#pass_oculta2 {
+  display: none;
 }

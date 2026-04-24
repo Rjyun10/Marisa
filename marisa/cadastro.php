@@ -13,6 +13,7 @@
     <script type="text/javascript" src="js/jquery_4_0.js"></script>
     <script type="text/javascript" src="js/cadastro.js"></script>
     <script type="text/javascript" src="js/mascara.js"></script>
+    <script type="text/javascript" src="js/validacao.js"></script>
     <title>Marisa - Cadastro</title>
 </head>
 <body>
@@ -71,15 +72,15 @@
                 <form action="" method="" class="form1_1">
                     <div class="box_form">
                         <b>Nome da Empresa *</b>
-                        <input type="text" name="nome_emp" placeholder="" class="inp_cad1" id="empresa_pj"/>
+                        <input type="text" name="nome_emp" placeholder="Insira o nome da empresa" class="inp_cad1" id="empresa_pj"/>
                     </div>
                     <div class="box_form">
                         <b>Responsável *</b>
-                        <input type="text" name="nome_resp" placeholder="" class="inp_cad1" id="resp_pj"/>
+                        <input type="text" name="nome_resp" placeholder="Insira o nome do responsável" class="inp_cad1" id="resp_pj"/>
                     </div>
                     <div class="box_form">
                         <b>CNPJ *</b>
-                        <input type="text" name="cnpj" placeholder="" class="inp_cad1" id="cnpj_pj"/>
+                        <input type="text" name="cnpj" placeholder="00.000.000/0000-00" maxlength="18" class="inp_cad1" id="cnpj_pj" id="masc_pj" onkeyup="mascaraCnpj(this.id)" />
                     </div>
                     <div class="box_form">
                         <div class="box_form_uf">
@@ -106,7 +107,7 @@
                     </div>
                     <div class="box_form">
                         <b>Inscrição Estadual *</b>
-                        <input type="text" name="ie" placeholder="" class="inp_cad1" id="ie_pj"/>
+                        <input type="text" name="ie" placeholder="Insira sua inscrição estadual" class="inp_cad1" id="ie_pj"/>
                     </div>
                     <div class="box_form">
                         <div class="box_form_ddd1">
@@ -144,23 +145,25 @@
                     </div>
                     <div class="box_form">
                         <b>Senha *</b>
-                        <input type="text" name="senha" placeholder="Insira a senha" class="inp_cad1" id="senha_d2"/>
+                        <input type="password" name="senha" placeholder="Insira a senha" class="inp_cad1" id="senha_d2"/>
                         <div class="box_bt_mostrar">
-                            <img src="imagens/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" />
+                            <img src="imagens/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" id="pass_mostra1" onclick="mostraSenha1(this.id)"/>
+                            <img src="imagens/eye-open.png" alt="Oculta Senha" class="bt_mostra_senha" id="pass_oculta1" onclick="ocultaSenha1(this.id)"/>
                         </div>
                     </div>
                     <div class="box_form">
                         <b>Confirmar Senha *</b>
-                        <input type="text" name="senha2" placeholder="Insira a senha novamente" class="inp_cad1" id="conf_senha_d2"/>
+                        <input type="password" name="senha2" placeholder="Insira a senha novamente" class="inp_cad1" id="conf_senha_d2"/>
                         <div class="box_bt_mostrar">
-                            <img src="imagens/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" />
+                            <img src="imagens/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" id="pass_mostra2" onclick="mostraSenha2(this.id)"/>
+                            <img src="imagens/eye-open.png" alt="Oculta Senha" class="bt_mostra_senha" id="pass_oculta2" onclick="ocultaSenha2(this.id)"/>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="cadastro_box3">
                 <input type="checkbox" class="inp_ck_termos" />
-                <label> Li, compreendi e concordo com as <a href="">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
+                <label> Li, compreendi e concordo com as <a href="">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="polipriva.php">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
                 <span class="bt_finaliza" onclick="enviarDadosCpf();">Finalizar Cadastro</span>
             </div>
                 <div class="termo_cnpj">
