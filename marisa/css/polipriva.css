@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.polipriva {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  float: left;
+}
+
+.box_poliseg {
+  width: 95%;
+  height: 80px;
+  text-align: center;
+  background-image: linear-gradient(to right bottom, #f600ab, #fd0c6b);
+  margin-left: 2.5%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.poliseg_h3 {
+  font-size: 40px;
+}
+
+.box_poli {
+  float: left;
+  height: auto;
+  width: 100%;
+}
+
+.box_poli hr {
+  width: 90%;
+  margin: 0 5% 0 5%;
+  margin-bottom: 12px;
+  border: 2px solid #f600ab;
+  float: left;
+}

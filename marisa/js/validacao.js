@@ -98,3 +98,92 @@ function validarCnpj(id) {
 
   return true;
 }
+
+function validaEmail(id) {
+  let email = document.getElementById(id).value;
+  const regex = /^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
+  return regex.test(email);
+}
+
+function validaGenero() {
+  if (
+    document.getElementById("genero_m_cpf").checked == false &&
+    document.getElementById("genero_f_cpf").checked == false &&
+    document.getElementById("genero_nf_cpf").checked == false
+  ) {
+    return false;
+  } else {
+    return true;
+  }
+}
+
+function validaNomePf(id) {
+  let nome = document.getElementById(id).value;
+  if (nome.length >= 5) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function validaToken(id) {
+  let token = document.getElementById(id).value;
+  if (token.length >= 9) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function validaSenha(id) {
+  let senha = document.getElementById(id).value;
+  if (senha.length >= 8) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function comparaSenha() {
+  let senha1 = document.getElementById("senha_d2").value;
+  let senha2 = document.getElementById("conf_senha_d2").value;
+  if (senha1 === senha2) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function validaTermoPf(id) {
+  if (document.getElementById(id).checked == true) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function validaDdd(id) {
+  let DDD1 = document.getElementById(id).value;
+  if (DDD1.length == 4) {
+    return true;
+  } else {
+    return false;
+  }
+}
+function validaCel1(id) {
+  let cel1 = document.getElementById(id).value;
+  if (cel1.length == 10) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function validaTel1(id) {
+  let tel1 = document.getElementById(id).value;
+  if (tel1.length == 9) {
+    return true;
+  } else {
+    return false;
+  }
+}

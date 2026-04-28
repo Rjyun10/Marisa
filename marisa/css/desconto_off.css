@@ -21,20 +21,33 @@ body {
   float: left;
   height: 30px;
   width: 100%;
+  text-align: center;
+}
+
+.passo1 {
+  width: 50%;
+  height: auto;
+  margin: 0 25% 0 25%;
 }
 
 .nums {
   font-size: 25px;
   color: black;
-  text-align: left;
+  text-align: left center;
 }
 
 .tit {
   font-size: 16px;
   color: #ff009c;
+  text-align: left center;
 }
 
 .subtit {
   font-size: 16px;
   color: black;
+  text-align: left center;
+}
+
+.imagp1 {
+  align-items: right;
 }

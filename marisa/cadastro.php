@@ -46,9 +46,9 @@
                     </div>
                     <div class="box_form">
                         <b class="subtit1">Gênero *</b>
-                        <span><input type="radio" name="genero" class="inp_radio" id="genero_cpf" value="Masculino"/>Masculino</span>
-                        <span><input type="radio" name="genero" class="inp_radio" id="genero_cpf" value="Feminino"/>Feminino</span>
-                        <span><input type="radio" name="genero" class="inp_radio" id="genero_cpf" value="Não informar"/>Não informar</span>
+                        <span><input type="radio" name="genero" class="inp_radio" id="genero_m_cpf" value="Masculino" />Masculino</span>
+                        <span><input type="radio" name="genero" class="inp_radio" id="genero_f_cpf" value="Feminino" />Feminino</span>
+                        <span><input type="radio" name="genero" class="inp_radio" id="genero_nf_cpf" value="Não informar" />Não informar</span>
                     </div>
                     <div class="box_form">
                         <div class="box_form_ddd1">
@@ -133,7 +133,7 @@
                 <form action="" method="" class="form2">
                     <div class="box_form">
                         <b>E-mail *</b>
-                        <input type="text" name="email" placeholder="Informe o e-mail" class="inp_cad1" id="email_d2"/>
+                        <input type="text" name="email" placeholder="Informe o e-mail" class="inp_cad1" id="email_d2" onclick="validaEmail(this.id)"/>
                     </div>
                     <div class="box_form">
                         <span class="bt_token" onclick="enviarDados2();">Receber token de cadastro</span>
@@ -162,7 +162,7 @@
                 </form>
             </div>
             <div class="cadastro_box3">
-                <input type="checkbox" class="inp_ck_termos" />
+                <input type="checkbox" class="inp_ck_termos" id="check_termo"/>
                 <label> Li, compreendi e concordo com as <a href="">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="polipriva.php">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
                 <span class="bt_finaliza" onclick="enviarDadosCpf();">Finalizar Cadastro</span>
             </div>

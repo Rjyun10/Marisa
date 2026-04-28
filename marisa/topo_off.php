@@ -17,11 +17,11 @@
             <img src="imagens/off10.gif" alt="Cupom APP10"/>
             <div class="vantagens">
                 <h3>Conheça nossas vantagens</h3>
-                <div class="">
+                <div class="passo1">
                     <p class="nums">01</p>
                     <p class="tit">Descontos e promoções exclusivas.</p>
                     <p class="subtit">Faça as suas compras no app e aproveite todos os benefícios.</p>
-                    <img src="imagens/DESCONTOS1.gif" alt=""/>
+                    <img class="imgp1" src="imagens/DESCONTOS1.gif" alt=""/>
                 </div>
                 <div class=""></div>
                 <div class=""></div>

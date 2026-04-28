@@ -13,7 +13,17 @@
 
     <?php include("includes/topo.php");?>
 
-    <div class=""></div>
+    <div class="polipriva">
+        <div class="box_poliseg">
+            <h3 class="poliseg_h3">Privacidade e Segurança</h3>
+            <div class="box_poli">
+                <h3>Politica de Privacidade</h3><hr></hr>
+                <div class="">
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <?php include("includes/rodape.php");?>
 
