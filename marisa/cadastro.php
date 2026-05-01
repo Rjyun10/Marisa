@@ -37,11 +37,11 @@
                     <div class="box_form">
                         <div class="box_form_nasc">
                             <b>Data de nescimento*</b>
-                            <input type="text" name="dtnasc" placeholder="00/00/0000" maxlength="10" class="inp_cad2" id="data_cpf" id="masc_dtnasc" onkeyup="mascaraData(this.id);"/>
+                            <input type="text" name="dtnasc" placeholder="00 / 00 / 0000" maxlength="10" class="inp_cad2" id="data_cpf" id="masc_dtnasc" onkeyup="mascaraData(this.id);"/>
                         </div>
                         <div class="box_form_cpf">
                             <b>CPF *</b>
-                            <input type="text" name="login" placeholder="000.000.000-00" maxlength="14" class="inp_cad3" id="cpf_cpf" id="masc_cpf" onkeyup="mascaraCpf(this.id)"/>
+                            <input type="text" name="login" placeholder="000 . 000 . 000 - 00" maxlength="14" class="inp_cad3" id="cpf_cpf" id="masc_cpf" onkeyup="mascaraCpf(this.id)"/>
                         </div>
                     </div>
                     <div class="box_form">
@@ -80,7 +80,7 @@
                     </div>
                     <div class="box_form">
                         <b>CNPJ *</b>
-                        <input type="text" name="cnpj" placeholder="00.000.000/0000-00" maxlength="18" class="inp_cad1" id="cnpj_pj" id="masc_pj" onkeyup="mascaraCnpj(this.id)" />
+                        <input type="text" name="cnpj" placeholder="00 . 000 . 000 / 0000 - 00" maxlength="18" class="inp_cad1" id="cnpj_pj" id="masc_pj" onkeyup="mascaraCnpj(this.id)" />
                     </div>
                     <div class="box_form">
                         <div class="box_form_uf">
@@ -165,6 +165,7 @@
                 <input type="checkbox" class="inp_ck_termos" id="check_termo"/>
                 <label> Li, compreendi e concordo com as <a href="">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="polipriva.php">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
                 <span class="bt_finaliza" onclick="enviarDadosCpf();">Finalizar Cadastro</span>
+                <div id="retorno_cpf"></div>
             </div>
                 <div class="termo_cnpj">
                     <h2>Ofertas</h2>

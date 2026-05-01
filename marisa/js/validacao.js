@@ -117,7 +117,7 @@ function validaGenero() {
   }
 }
 
-function validaNomePf(id) {
+function validaNomeCpf(id) {
   let nome = document.getElementById(id).value;
   if (nome.length >= 5) {
     return true;
@@ -154,7 +154,7 @@ function comparaSenha() {
   }
 }
 
-function validaTermoPf(id) {
+function validaTermoCpf(id) {
   if (document.getElementById(id).checked == true) {
     return true;
   } else {

@@ -17,10 +17,20 @@ body {
   margin-left: 2.5%;
   border-radius: 20px;
   margin-bottom: 20px;
+  display: block;
 }
 
 .poliseg_h3 {
   font-size: 40px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.polipriva_h3 {
+  color: #ff009c;
+  text-align: left;
+  padding-left: 5%;
+  font-size: 20px;
 }
 
 .box_poli {
@@ -33,6 +43,49 @@ body {
   width: 90%;
   margin: 0 5% 0 5%;
   margin-bottom: 12px;
-  border: 2px solid #f600ab;
+  border: 2px solid #ff009c;
   float: left;
+}
+
+.box_infos {
+  width: 90%;
+  height: auto;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.intros_p {
+  float: left;
+  padding-top: 10px;
+  font-weight: 800;
+  width: 100%;
+  height: auto;
+  text-transform: uppercase;
+}
+
+.infos1 {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.infos1 a {
+  text-decoration: none;
+  color: #ff009c;
+}
+
+.table_poli {
+  width: 100%;
+  height: auto;
+  border: solid 2px #0e0e0e;
+  text-align: center;
+
+  font-size: 18px;
+}
+
+.table_poli tr {
+  color: #fff;
+  background-color: #ff009c;
+  text-transform: uppercase;
 }
