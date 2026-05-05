@@ -17,16 +17,16 @@ function enviarDadosCpf() {
     validaDdd("ddd2_cpf") &&
     validaCel1("cel_cpf") &&
     validaDdd("ddd2_cpf") &&
-    validaTel1("tel_cpf") /*&&
+    validaTel1("tel_cpf") &&
     validaEmail("email_d2") &&
     validaToken("token_d2") &&
     validaSenha("senha_d2") &&
     validaSenha("conf_senha_d2") &&
     comparaSenha() &&
-    validaTermoCpf("check_termo")*/
+    validaTermoCpf("check_termo")
   ) {
     var nome = document.getElementById("nome_cpf").value;
-    var data = document.getElementById("data_cpf").value;
+    var dtnasc = document.getElementById("data_cpf").value;
     var cpf = document.getElementById("cpf_cpf").value;
     var gen_m = document.getElementById("genero_m_cpf").value;
     var gen_f = document.getElementById("genero_f_cpf").value;
@@ -47,7 +47,7 @@ function enviarDadosCpf() {
     var termo = document.getElementById("check_termo").value;
     enviaDadosCpf(
       nome,
-      data,
+      dtnasc,
       cpf,
       genero,
       ddd1,
@@ -57,15 +57,13 @@ function enviarDadosCpf() {
       email,
       token,
       senha,
-      conf_senha,
-      termo,
     );
   }
 }
 
 function enviaDadosCpf(
   nome,
-  data,
+  dtnasc,
   cpf,
   genero,
   ddd1,
@@ -75,8 +73,6 @@ function enviaDadosCpf(
   email,
   token,
   senha,
-  conf_senha,
-  termo,
 ) {
   $.ajax({
     url: "http://localhost/marisa/classes/process_cadastroPf.php",
@@ -84,7 +80,7 @@ function enviaDadosCpf(
     dataType: "html",
     data: {
       nome: nome,
-      data: data,
+      dtnasc: dtnasc,
       cpf: cpf,
       genero: genero,
       ddd1: ddd1,
@@ -94,8 +90,6 @@ function enviaDadosCpf(
       email: email,
       token: token,
       senha: senha,
-      conf_senha: conf_senha,
-      termo: termo,
     },
     beforeSend: function () {},
     success: function (result) {

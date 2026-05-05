@@ -1,6 +1,9 @@
 <?php
+    require_once("../conexao/conexao.php");
+    require_once("../classes/class_cadastros.php");
+
     $nome = $_POST['nome'];
-    $data = $_POST['data'];
+    $dtnasc = $_POST['dtnasc'];
     $cpf = $_POST['cpf'];
     $genero = $_POST['genero'];
     $ddd1 = $_POST['ddd1'];
@@ -10,7 +13,14 @@
     $email = $_POST['email'];
     $token = $_POST['token'];
     $senha = $_POST['senha'];
-    $conf_senha = $_POST['conf_senha'];
-    $termo = $_POST['termo'];
-    echo $nome." / ".$data." / ".$cpf." / ".$genero." / ".$ddd1." / ".$cel." / ".$ddd2." / ".$tel." / ".$email." / ".$token." / ".$senha." / ".$conf_senha." / ".$termo;
+
+    $cadastra = new cadastraUsuarioPf($nome, $dtnasc, $cpf, $genero, $ddd1, $cel, $ddd2, $tel, $email, $token, $senha);
+
+    if($cadastra->error){
+        echo "Ocorreu um errro ao cadastrar o usuário! ERRO: ".$cadastra->error;
+    }else{
+        echo "Cadastro realisado com sucesso!";
+    }
+
+    echo $nome." / ".$dtnasc." / ".$cpf." / ".$genero." / ".$ddd1." / ".$cel." / ".$ddd2." / ".$tel." / ".$email." / ".$token." / ".$senha;
 ?>
