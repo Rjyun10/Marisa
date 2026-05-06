@@ -33,61 +33,61 @@
             <div class="box2_menu">
                 <div class="menu_col1">
                     <b class="sub_tit1">Departamentos</b>
-                    <a href="" target="_blank" class="link_menu">Feminino</a>
-                    <a href="" target="_blank" class="link_menu">Calçados</a>
-                    <a href="" target="_blank" class="link_menu">Lingerie</a>
-                    <a href="" target="_blank" class="link_menu">Jeans</a>
-                    <a href="" target="_blank" class="link_menu">Plus Size</a>
-                    <a href="" target="_blank" class="link_menu">Acessórios</a>
-                    <a href="" target="_blank" class="link_menu">Infantil</a>
-                    <a href="" target="_blank" class="link_menu">Masculino</a>
-                    <a href="" target="_blank" class="link_menu">Marcas</a>
-                    <a href="" target="_blank" class="link_menu">Roupas Femininas</a>
-                    <a href="" target="_blank" class="link_menu">Blusas</a>
+                    <a href="" target="" class="link_menu">Feminino</a>
+                    <a href="" target="" class="link_menu">Calçados</a>
+                    <a href="" target="" class="link_menu">Lingerie</a>
+                    <a href="" target="" class="link_menu">Jeans</a>
+                    <a href="" target="" class="link_menu">Plus Size</a>
+                    <a href="" target="" class="link_menu">Acessórios</a>
+                    <a href="" target="" class="link_menu">Infantil</a>
+                    <a href="" target="" class="link_menu">Masculino</a>
+                    <a href="" target="" class="link_menu">Marcas</a>
+                    <a href="" target="" class="link_menu">Roupas Femininas</a>
+                    <a href="" target="" class="link_menu">Blusas</a>
                 </div>
                 <div class="menu_col1">
                     <b class="sub_tit1">Institucional</b>
-                    <a href="" target="_blank" class="link_menu">Sobre a Marisa</a>
-                    <a href="" target="_blank" class="link_menu">Nossas Lojas</a>
-                    <a href="" target="_blank" class="link_menu">Investidores</a>
-                    <a href="" target="_blank" class="link_menu">Termos de Segurança</a>
-                    <a href="" target="_blank" class="link_menu">Imprensa</a>
-                    <a href="" target="_blank" class="link_menu">Cartão Marisa</a>
-                    <a href="" target="_blank" class="link_menu">Mapa do Site</a>
-                    <a href="" target="_blank" class="link_menu">Certificados</a>
-                    <a href="" target="_blank" class="link_menu">Fornecedores</a>
-                    <a href="" target="_blank" class="link_menu">Canal de Denúncias</a>
-                    <a href="" target="_blank" class="link_menu">Sustentabilidade</a>
-                    <a href="" target="_blank" class="link_menu">Igualdade Salarial</a>
+                    <a href="" target="" class="link_menu">Sobre a Marisa</a>
+                    <a href="" target="" class="link_menu">Nossas Lojas</a>
+                    <a href="" target="" class="link_menu">Investidores</a>
+                    <a href="" target="" class="link_menu">Termos de Segurança</a>
+                    <a href="" target="" class="link_menu">Imprensa</a>
+                    <a href="" target="" class="link_menu">Cartão Marisa</a>
+                    <a href="" target="" class="link_menu">Mapa do Site</a>
+                    <a href="" target="" class="link_menu">Certificados</a>
+                    <a href="" target="" class="link_menu">Fornecedores</a>
+                    <a href="" target="" class="link_menu">Canal de Denúncias</a>
+                    <a href="" target="" class="link_menu">Sustentabilidade</a>
+                    <a href="" target="" class="link_menu">Igualdade Salarial</a>
                 </div>
                 <div class="menu_col1">
                     <b class="sub_tit1">Antendimento ao Cliente</b>
-                    <a href="" target="_blank" class="link_menu">Nossos Canais de Atendimento</a>
-                    <a href="" target="_blank" class="link_menu">Fale com a gente</a>
-                    <a href="" target="_blank" class="link_menu">Formas de Pagamento</a>
-                    <a href="" target="_blank" class="link_menu">Troca e Devoluções</a>
-                    <a href="" target="_blank" class="link_menu">Meus Pedidos</a>
-                    <a href="" target="_blank" class="link_menu">Como Comprar</a>
-                    <a href="prazo.php" target="_blank" class="link_menu">Prazo de Entrega</a>
-                    <a href="" target="_blank" class="link_menu">Regras e Promoções</a>
-                    <a href="" target="_blank" class="link_menu">Sorteios Semanais</a>
+                    <a href="" target="" class="link_menu">Nossos Canais de Atendimento</a>
+                    <a href="" target="" class="link_menu">Fale com a gente</a>
+                    <a href="" target="" class="link_menu">Formas de Pagamento</a>
+                    <a href="" target="" class="link_menu">Troca e Devoluções</a>
+                    <a href="" target="" class="link_menu">Meus Pedidos</a>
+                    <a href="" target="" class="link_menu">Como Comprar</a>
+                    <a href="prazo.php" target="" class="link_menu">Prazo de Entrega</a>
+                    <a href="" target="" class="link_menu">Regras e Promoções</a>
+                    <a href="" target="" class="link_menu">Sorteios Semanais</a>
                 </div>
                 <div class="menu_col1">
                     <b class="sub_tit1">Trabalhe Conosco</b>
-                    <a href="" target="_blank" class="link_menu">Trabalhe Conosco</a>
-                    <a href="" target="_blank" class="link_menu">Contratação de Modelos</a>
+                    <a href="" target="" class="link_menu">Trabalhe Conosco</a>
+                    <a href="" target="" class="link_menu">Contratação de Modelos</a>
 
                     <b class="sub_tit1">Trabalhe Conosco</b>
-                    <a href="" target="_blank" class="link_menu">Comunicado de Incidente de Segurança</a>
+                    <a href="" target="" class="link_menu">Comunicado de Incidente de Segurança</a>
 
                     <b class="sub_tit1">Proteção de Dados Pessoais</b>
-                    <a href="" target="_blank" class="link_menu">Política de Privacidade Geral</a>
+                    <a href="polipriva.php" target="" class="link_menu">Política de Privacidade Geral</a>
 
                 </div>
                 <div class="menu_col2">
                     <label>Não encontrou o que estava procurando?</label>
-                    <a href="" target="_blank" class="link_ajuda">Podemos ajudar? Fale conosco.</a>
-                    <a href="" target="_blank" class="link_encontre">Encontre as lojas mais próximas.</a>
+                    <a href="" target="" class="link_ajuda">Podemos ajudar? Fale conosco.</a>
+                    <a href="" target="" class="link_encontre">Encontre as lojas mais próximas.</a>
                 </div>
             </div>
         </div>

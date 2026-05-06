@@ -68,6 +68,16 @@ body {
   font-size: 16px;
   text-align: left;
   font-weight: 600;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.infos2 {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-left: 50px;
 }
 
 .infos1 a {
@@ -108,7 +118,7 @@ td {
   background-color: #fff;
 }
 
-.email_encarreg {
+.sites_click {
   text-decoration: none;
   color: #ff009c;
 }
@@ -131,6 +141,7 @@ td {
   }
 }
 
-.email_encarreg:hover {
+.sites_click:hover {
   animation: colorChange 2s ease-in-out infinite;
+  cursor: pointer;
 }
