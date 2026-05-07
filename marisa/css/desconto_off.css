@@ -25,9 +25,16 @@ body {
 }
 
 .passo1 {
+  width: 60%;
+  height: auto;
+  margin: 0 20% 0 20%;
+  text-align: right;
+}
+
+.passos {
   width: 50%;
   height: auto;
-  margin: 0 25% 0 25%;
+  margin: 0 50% 0 0;
 }
 
 .nums {
@@ -50,4 +57,8 @@ body {
 
 .imagp1 {
   align-items: right;
+}
+
+.imagp1 {
+  text-align: left;
 }

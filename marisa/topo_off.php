@@ -21,9 +21,10 @@
                     <p class="nums">01</p>
                     <p class="tit">Descontos e promoções exclusivas.</p>
                     <p class="subtit">Faça as suas compras no app e aproveite todos os benefícios.</p>
+                    <div class="passos">
                     <img class="imgp1" src="imagens/DESCONTOS1.gif" alt=""/>
+                    </div>
                 </div>
-                <div class=""></div>
                 <div class=""></div>
                 <div class=""></div>
                 <div class=""></div>
